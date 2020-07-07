@@ -14,5 +14,32 @@ var welcomeName = prompt('what is your name?');
 alert('Welcome' + welcomeName + 'to my site!');
 console.log('welcomeName' + welcomeName);
 
+// var twinAnswer = prompt('Is Riva a twin? Answer yes or no');
+// if (twinAnswer === 'yes') {
+//   alert('Wow, you might be seeing double!');
+// } else if (twinAnswer === 'no'){
+//   alert('You barely know her, so I wouldn\'t expect you to remember);
+// } else if(twinAnwer === 'I don\'t know) {
+//   alert('That\'s ok, read the webpage to find out);
+// } else {
+//   alert('Move on to the next question);
+
+// I need to clean this up and add console log
+
+var hasCatAnswer = prompt('Does Riva have a black cat?');
+if(hasCatAnswer === 'yes') {
+  alert('Nice job! His name is Ragnar and he is the best cat in the land');
+} else(if hasCatAnswer === 'no') {
+  alert('Good try, but wrong answer:('){
+  }else{
+    alert('Here\'s a hint: \'Meow\');
+  }
+  }
+}
+
+
+
+}
+}
 
 
