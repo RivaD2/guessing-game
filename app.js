@@ -10,26 +10,15 @@
 //use .toUpperCase() or .toLowerCase() functions
 //Before submitting, comment out (don’t delete) your console.log()
 
-var yesOrNoCase = yesOrNoCase.toLowerCase();
-if(yesOrNoCase === 'y' || yesOrNoCase === 'yes'){
-  console.log('they said yeeeeeesssssss!!!');
-}
-
-var yAndNCase = yAndNCase.toUpperCase();
-if(yAndNCase === 'Y' || yAndNCase === 'YES'){
-  console.log('they said yeeeeeesssssss!!!');
-}
-
-
 // var welcomeName = prompt('What is your name?').toLowerCase();
 // alert('Welcome to my site ' + welcomeName);
-// //console.log('welcomeName' + welcomeName);
+// console.log('welcomeName' + welcomeName);
 
-// var twinAnswer = prompt('Is Riva a twin? Answer yes or no.').toLowerCase();
-// if (twinAnswer === 'yes') {
+// var twinAnswer = prompt('Is Riva a twin? Answer yes or no please.').toLowerCase();
+// if (twinAnswer === 'yes' || twinAnswer === 'y' || twinAnswer === 'YES' || twinAnswer === 'Y') {
 //   // console.log('correct');
 //   alert('Wow, you might be seeing double!');
-// } else if (twinAnswer === 'no'){
+// } else if (twinAnswer === 'no' || twinAnswer === 'n' || twinAnswer === 'NO' || twinAnswer === 'N'){
 //   // console.log('incorrect');
 //   alert('You barely know her, so I wouldn\'t expect you to remember.');
 // } else if(twinAnswer === 'I don\'t know') {
@@ -42,17 +31,17 @@ if(yAndNCase === 'Y' || yAndNCase === 'YES'){
 
 
 // var hasCatAnswer = prompt('Does Riva have a black cat?').toLowerCase();
-// if(hasCatAnswer === 'yes') {
+// if(hasCatAnswer === 'yes' || hasCatAnswer === 'y'|| hasCatAnswer === 'YES' || hasCatAnswer === 'Y') {
 //   // console.log('you are right');
 //   alert('Nice job! His name is Ragnar and he is the best cat in the land.');
-// } else if (hasCatAnswer === 'no') {
+// } else if (hasCatAnswer === 'no' || hasCatAnswer === 'n' || hasCatAnswer === 'NO' || hasCatAnswer === 'N') {
 //   // console.log('you are wrong');
 //   alert('Good try, but wrong answer.');
 // } else {
 //   // console.log('not a valid input');
 //   alert('Here\'s a hint: \'Meow\'');
 // }
-// //console.log(hasCatAnswer);
+// console.log(hasCatAnswer);
 
 
 // var logResult = 'You are wrong';
@@ -80,21 +69,41 @@ if(yAndNCase === 'Y' || yAndNCase === 'YES'){
 // // console.log(logResult);
 
 // var speakRussianAnswer = prompt('Does Riva speak Russian?').toLowerCase();
-// if(speakRussianAnswer === 'yes') {
+// if(speakRussianAnswer  === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnswer === 'YES' || speakRussianAnswer === 'Y') {
 //   // console.log(user is correct);
 //   alert('da, da, da, you are correct!');
-// } else if(speakRussianAnswer === 'no') {
+// } else if(speakRussianAnswer  === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnswer === 'YES' || speakRussianAnswer === 'Y') {
 //   // console.log(The user has guessed wrong);
 //   alert('net, net, net! Wrong answer my friend.');
 // }
 
 // const favoriteMovieAnswer = prompt('Is Riva\'s favorite movie Fifth Element?').toLowerCase();
-// if(favoriteMovieAnswer === 'yes') {
+// if(favoriteMovieAnswer  === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieAnswer === 'YES' || favoriteMovieAnswer === 'Y') {
 //   // console.log(answer valid);
 //   alert(' "Leeloo Dallas Multipass"');
-// } else if(favoriteMovieAnswer === 'no') {
+// } else if(favoriteMovieAnswer === 'no' || favoriteMovieAnswer === 'n' || favoriteMovieAnswer === 'NO' || favoriteMovieAnswer === 'N') {
 //   // console.log(answer invalid);
 //   alert('Wrong Answer ' + welcomeName + ', now the Earth is doomed! (Also, watch the movie!)');
 // }
+
+
+//LAB 03 portion of work
+//Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+//Indicate through an alert if the guess is “too high” or “too low”.
+//It should give the user exactly four opportunities to get the correct answer.
+//After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+
+
+
+var rivaAgeQuestion = prompt('How old is Riva? You can guess four times using numbers 30-40').toLowerCase();
+var count = 0;
+var rivaAge = 33;
+while(count < 4) {
+  // First if conditional, check if it === answer. If so, then alert "good work!"
+  // Write break if they guess correctly
+  // After loop, outside of it, last alert is included saying what the correct answer is
+} if (rivaAge === 30 || rivaAge === 31 ||) {
+  alert(' So close! Three attemps left!');
+} else if()
 
 
