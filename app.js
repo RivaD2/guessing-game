@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*Prompt the user a total of exactly five yes or no questions. The user input for the answer must accept either y/n or yes/no responses while taking into consideration case sensitivity */
 
@@ -11,51 +11,61 @@
 //Before submitting, comment out (don’t delete) your console.log()
 
 var welcomeName = prompt('what is your name?');
-alert('Welcome' + welcomeName + 'to my site!');
-console.log('welcomeName' + welcomeName);
+alert('Welcome ' + welcomeName + ' to my site!');
+//console.log('welcomeName' + welcomeName);
 
-// var twinAnswer = prompt('Is Riva a twin? Answer yes or no');
-// if (twinAnswer === 'yes') {
-//   alert('Wow, you might be seeing double!');
-// } else if (twinAnswer === 'no'){
-//   alert('You barely know her, so I wouldn\'t expect you to remember);
-// } else if(twinAnwer === 'I don\'t know) {
-//   alert('That\'s ok, read the webpage to find out);
-// } else {
-//   alert('Move on to the next question);
-
-// I need to clean this up and add console log
-
-// var hasCatAnswer = prompt('Does Riva have a black cat?');
-// if(hasCatAnswer === 'yes') {
-//   alert('Nice job! His name is Ragnar and he is the best cat in the land');
-// } else(if hasCatAnswer === 'no') {
-//   alert('Good try, but wrong answer:(');
-//   }else{
-//     alert('Here\'s a hint: \'Meow\');
-//   }
-// }
-
-// var yearsInSeattleAnswer = prompt('How long has Riva been in Seattle?' ('use numbers zero-five'));
-// switch(yearsInSeattleAnswer) {
-//   case 'zero':
-//   case 'one':
-//     alert('Nope, guess again');
-//     break;
-//   case 'two':
-//   case 'three':
-//     alert('Getting warmer');
-//     break;
-//   case 'four':
-//     alert('Ouch hot tamale so close but sadly still wrong);
-//     break;
-//   case 'five':
-//     alert('Yay, you guessed correctly!');
-//     break;
-//   default:
-//       alert(' Why are you not guessing using numbers?');
+var twinAnswer = prompt('Is Riva a twin? Answer yes or no');
+if (twinAnswer === 'yes') {
+  alert('Wow, you might be seeing double!');
+} else if (twinAnswer === 'no'){
+  alert('You barely know her, so I wouldn\'t expect you to remember') ; 
+} else if(twinAnswer === 'I don\'t know') {
+  alert('That\'s ok, read the webpage to find out');
+} else {
+  alert('Move on to the next question');
 }
+// console.log(twinAnswer);
 
+var hasCatAnswer = prompt('Does Riva have a black cat?');
+if(hasCatAnswer === 'yes') {
+  alert('Nice job! His name is Ragnar and he is the best cat in the land');
+} else if (hasCatAnswer === 'no') {
+  alert('Good try, but wrong answer');
+} else {
+  alert('Here\'s a hint: \'Meow\'');
+}
+//console.log(hasCatAnswer);
+
+
+
+var yearsInSeattleAnswer;
+yearsInSeattleAnswer = prompt('How long has Riva been in Seattle? Choose numbers 1,2,3,4, or 5');
+switch(yearsInSeattleAnswer) {
+case '0':
+case '1':
+  alert('Nope, guess again');
+  break;
+case '2':
+case '3':
+  alert('Getting warmer, guess again');
+  break;
+case '4':
+  alert('Ouch hot tamale so close but sadly still wrong');
+  break;
+case '5':
+  alert('Yay, you guessed correctly!');
+  break;
+default:
+  alert(' Why are you not guessing any numbers?');
+}
+console.log('3');
+
+var speakRussianAnswer = prompt('Does Riva speak Russian?');
+if(speakRussianAnswer === 'yes') {
+  alert('da, da, da, you are correctomundo');
+} else if(speakRussianAnswer === 'no') {
+  alert('net, net, net! Wrong answer my friend');
+}
 
 
 
