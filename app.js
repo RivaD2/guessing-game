@@ -83,7 +83,7 @@ if(favoriteMovieAnswer === 'yes') {
   alert(' "Leeloo Dallas Multipass"');
 } else if(favoriteMovieAnswer === 'no') {
   // console.log(answer invalid);
-  alert('Wrong Answer, now the Earth is doomed! (Also, watch the movie!)');
+  alert('Wrong Answer ' + welcomeName + ', now the Earth is doomed! (Also, watch the movie!)');
 }
 
 
