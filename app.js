@@ -1,5 +1,5 @@
 'use strict';
-
+//LAB 02:
 /*Prompt the user a total of exactly five yes or no questions. The user input for the answer must accept either y/n or yes/no responses while taking into consideration case sensitivity */
 
 //Ask the user their name through a prompt()
@@ -78,6 +78,7 @@
 // }
 
 // const favoriteMovieAnswer = prompt('Is Riva\'s favorite movie Fifth Element?').toLowerCase();
+//adding the strictly equals to each possible answer ensures that the various inputs of user will be valid
 // if(favoriteMovieAnswer  === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieAnswer === 'YES' || favoriteMovieAnswer === 'Y') {
 //   // console.log(answer valid);
 //   alert(' "Leeloo Dallas Multipass"');
@@ -87,23 +88,45 @@
 // }
 
 
-//LAB 03 portion of work
-//Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
-//Indicate through an alert if the guess is “too high” or “too low”.
-//It should give the user exactly four opportunities to get the correct answer.
-//After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+// LAB 03 portion of work// QUESTION 6
+// Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+// Indicate through an alert if the guess is “too high” or “too low”.
+// It should give the user exactly four opportunities to get the correct answer.
+// After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
+// var count = 0;
+// while(count < 4) {
+//   var rivaAge = prompt('How old is Riva? You can guess four times using numbers 30-40');
+//   //console.log(rivaAge);
+//   // I used parseInt  to convert the string into and integer so that it could be compared to 33
+//   rivaAge = parseInt(rivaAge);
+//   if (rivaAge === 33) {
+//     alert ('WOW, you did it, you got it right!');
+//     break;
+//   }
+//   else if (rivaAge > 33) {
+//     count++;
+//     alert(' Too High!');
+//   }
+//   else if( rivaAge < 33) {
+//     count++;
+//     alert( 'Too Low, guess again my friend!');
+//   }
+// //created a second if statement inside while loop and set count to === 4
+// // This will stop the user from having any other attempts to guess again as they have reached limit of 4
+//   if(count === 4) {
+//     alert('You tried you best, the correct answer is 33!');
+//   }
+// }
 
+//QUESTION 7:
+// Add a 7th question that has multiple possible correct answers that are stored in an array.
+// Give the user 6 attempts to guess the correct answer.
+// The guesses will end once the user guesses a correct answer or they run out of attempts.
+// Display all the possible correct answers to the user.
+// Consider using a loop of some sort for this question.
 
-var rivaAgeQuestion = prompt('How old is Riva? You can guess four times using numbers 30-40').toLowerCase();
-var count = 0;
-var rivaAge = 33;
-while(count < 4) {
-  // First if conditional, check if it === answer. If so, then alert "good work!"
-  // Write break if they guess correctly
-  // After loop, outside of it, last alert is included saying what the correct answer is
-} if (rivaAge === 30 || rivaAge === 31 ||) {
-  alert(' So close! Three attemps left!');
-} else if()
+var foodsAnswer = ['green onion pancakes', 'piroshky', ]
+
 
 
