@@ -26,20 +26,36 @@ console.log('welcomeName' + welcomeName);
 
 // I need to clean this up and add console log
 
-var hasCatAnswer = prompt('Does Riva have a black cat?');
-if(hasCatAnswer === 'yes') {
-  alert('Nice job! His name is Ragnar and he is the best cat in the land');
-} else(if hasCatAnswer === 'no') {
-  alert('Good try, but wrong answer:('){
-  }else{
-    alert('Here\'s a hint: \'Meow\');
-  }
-  }
+// var hasCatAnswer = prompt('Does Riva have a black cat?');
+// if(hasCatAnswer === 'yes') {
+//   alert('Nice job! His name is Ragnar and he is the best cat in the land');
+// } else(if hasCatAnswer === 'no') {
+//   alert('Good try, but wrong answer:(');
+//   }else{
+//     alert('Here\'s a hint: \'Meow\');
+//   }
+// }
+
+// var yearsInSeattleAnswer = prompt('How long has Riva been in Seattle?' ('use numbers zero-five'));
+// switch(yearsInSeattleAnswer) {
+//   case 'zero':
+//   case 'one':
+//     alert('Nope, guess again');
+//     break;
+//   case 'two':
+//   case 'three':
+//     alert('Getting warmer');
+//     break;
+//   case 'four':
+//     alert('Ouch hot tamale so close but sadly still wrong);
+//     break;
+//   case 'five':
+//     alert('Yay, you guessed correctly!');
+//     break;
+//   default:
+//       alert(' Why are you not guessing using numbers?');
 }
 
 
-
-}
-}
 
 
