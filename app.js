@@ -138,7 +138,6 @@ var guessCount = 0;
 
 while (guessCount < 6) {
   //console.log('starting loop ' + guessCount); This says starting loop one, two , three etc.
-  
   // concatenating (6-guessCount)shows user correct amount of attempts remaining
   // While loop makes guessCount larger each time, but we want the prompt to guessCount down
   // 6 is the max and we guessCount down from there, so 6-guessCount is how many tries we have left
