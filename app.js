@@ -121,9 +121,9 @@ russianQuestion();
 
 
 
-
-
-/*
+function movieQuestion() {
+  //console.log(correctGuesses);
+}
 const favoriteMovieAnswer = prompt('Is Riva\'s favorite movie Fifth Element?').toLowerCase();
 //adding the strictly equals to each possible answer ensures that the various inputs of user will be valid
 if(favoriteMovieAnswer === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieAnswer === 'YES' || favoriteMovieAnswer === 'Y') {
@@ -134,6 +134,7 @@ if(favoriteMovieAnswer === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieA
   // console.log(answer invalid);
   alert('Wrong Answer ' + welcomeName + ', now the Earth is doomed! (Also, watch the movie!)');
 }
+movieQuestion(); 
 
 
 
@@ -148,7 +149,7 @@ if(favoriteMovieAnswer === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieA
 //PAIRED PROGAMMING LAB 04
 
 
-
+/*
 var count = 0;
 while(count < 4) {
   var rivaAge = prompt('How old is Riva? You can guess four times using numbers 30-40');
