@@ -72,9 +72,11 @@ hasCatAnswerQuestion();
 
 
 
-/*
-var logResult = 'You are wrong';
-var yearsInSeattleAnswer;
+
+function yearsInSeattleQuestion() {
+  //console.log('We did it!!!');
+  var logResult = 'You are wrong';
+  var yearsInSeattleAnswer;
 yearsInSeattleAnswer = prompt('How long has Riva been in Seattle? Choose numbers 1,2,3,4, or 5.');
 switch(yearsInSeattleAnswer) {
 case '0':
@@ -96,10 +98,13 @@ case '5':
 default:
   alert('Why are you not guessing any numbers?');
 }
+}
+// console.log(logResult);
+yearsInSeattleQuestion(); 
 
 
 
-
+/*
 var speakRussianAnswer = prompt('Does Riva speak Russian?').toLowerCase();
 if(speakRussianAnswer === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnswer === 'YES' || speakRussianAnswer === 'Y') {
   // console.log(user is correct);
