@@ -123,8 +123,7 @@ russianQuestion();
 
 function movieQuestion() {
   //console.log(correctGuesses);
-}
-const favoriteMovieAnswer = prompt('Is Riva\'s favorite movie Fifth Element?').toLowerCase();
+  const favoriteMovieAnswer = prompt('Is Riva\'s favorite movie Fifth Element?').toLowerCase();
 //adding the strictly equals to each possible answer ensures that the various inputs of user will be valid
 if(favoriteMovieAnswer === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieAnswer === 'YES' || favoriteMovieAnswer === 'Y') {
   // console.log(answer valid);
@@ -133,6 +132,7 @@ if(favoriteMovieAnswer === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieA
 } else if(favoriteMovieAnswer === 'no' || favoriteMovieAnswer === 'n' || favoriteMovieAnswer === 'NO' || favoriteMovieAnswer === 'N') {
   // console.log(answer invalid);
   alert('Wrong Answer ' + welcomeName + ', now the Earth is doomed! (Also, watch the movie!)');
+}
 }
 movieQuestion(); 
 
