@@ -104,8 +104,10 @@ yearsInSeattleQuestion();
 
 
 
-/*
-var speakRussianAnswer = prompt('Does Riva speak Russian?').toLowerCase();
+
+function russianQuestion() {
+  //console.log('Does Riva speak Russian?');
+  var speakRussianAnswer = prompt('Does Riva speak Russian?').toLowerCase();
 if(speakRussianAnswer === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnswer === 'YES' || speakRussianAnswer === 'Y') {
   // console.log(user is correct);
   alert('da, da, da, you are correct!');
@@ -114,12 +116,14 @@ if(speakRussianAnswer === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnsw
   // console.log(The user has guessed wrong);
   alert('net, net, net! Wrong answer my friend.');
 }
+}
+russianQuestion(); 
 
 
 
 
 
-
+/*
 const favoriteMovieAnswer = prompt('Is Riva\'s favorite movie Fifth Element?').toLowerCase();
 //adding the strictly equals to each possible answer ensures that the various inputs of user will be valid
 if(favoriteMovieAnswer === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieAnswer === 'YES' || favoriteMovieAnswer === 'Y') {
