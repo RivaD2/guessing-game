@@ -10,6 +10,11 @@
 //use .toUpperCase() or .toLowerCase() functions
 //Before submitting, comment out (don’t delete) your console.log()
 
+
+//PAIRED PROGRAMMING LAB 04
+
+
+
 var correctGuesses = 0;
 var welcomeName = prompt('What is your name?').toLowerCase();
 alert('Welcome to my site ' + welcomeName);
@@ -32,6 +37,8 @@ if (twinAnswer === 'yes' || twinAnswer === 'y' || twinAnswer === 'YES' || twinAn
 }
 
 
+
+
 var hasCatAnswer = prompt('Does Riva have a black cat?').toLowerCase();
 if(hasCatAnswer === 'yes' || hasCatAnswer === 'y'|| hasCatAnswer === 'YES' || hasCatAnswer === 'Y') {
   // console.log('you are right');
@@ -45,6 +52,9 @@ if(hasCatAnswer === 'yes' || hasCatAnswer === 'y'|| hasCatAnswer === 'YES' || ha
   alert('Here\'s a hint: \'Meow\'');
 }
 console.log(hasCatAnswer);
+
+
+
 
 
 var logResult = 'You are wrong';
@@ -72,6 +82,9 @@ default:
 }
 // console.log(logResult);
 
+
+
+
 var speakRussianAnswer = prompt('Does Riva speak Russian?').toLowerCase();
 if(speakRussianAnswer === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnswer === 'YES' || speakRussianAnswer === 'Y') {
   // console.log(user is correct);
@@ -81,6 +94,9 @@ if(speakRussianAnswer === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnsw
   // console.log(The user has guessed wrong);
   alert('net, net, net! Wrong answer my friend.');
 }
+
+
+
 
 const favoriteMovieAnswer = prompt('Is Riva\'s favorite movie Fifth Element?').toLowerCase();
 //adding the strictly equals to each possible answer ensures that the various inputs of user will be valid
@@ -94,11 +110,18 @@ if(favoriteMovieAnswer === 'yes' || favoriteMovieAnswer === 'y'|| favoriteMovieA
 }
 
 
+
+
+
 // LAB 03 portion of work// QUESTION 6
 // Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
 // Indicate through an alert if the guess is “too high” or “too low”.
 // It should give the user exactly four opportunities to get the correct answer.
 // After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+
+//PAIRED PROGAMMING LAB 04
+
+
 
 var count = 0;
 while(count < 4) {
@@ -125,12 +148,16 @@ while(count < 4) {
   }
 }
 
+
+
 //QUESTION 7:
 // Add a 7th question that has multiple possible correct answers that are stored in an array.
 // Give the user 6 attempts to guess the correct answer.
 // The guesses will end once the user guesses a correct answer or they run out of attempts.
 // Display all the possible correct answers to the user.
 // Consider using a loop of some sort for this question.
+
+
 
 
 var foodsList = ['green onion pancakes', 'piroshky','tapas', 'pickled beets'];
