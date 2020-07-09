@@ -23,10 +23,13 @@
 6. Have fun!
 */
 
+
 var correctGuesses = 0;
 var welcomeName = prompt('What is your name?').toLowerCase();
 alert('Welcome to my site ' + welcomeName);
 console.log('welcomeName' + welcomeName); 
+
+
 
 function twinQuestion() {
   //console.log('Is Riva a twin? Answer yes or no please.')
@@ -49,9 +52,10 @@ if (twinAnswer === 'yes' || twinAnswer === 'y' || twinAnswer === 'YES' || twinAn
 twinQuestion(); 
 
 
-
-var hasCatAnswer = prompt('Does Riva have a black cat?').toLowerCase();
-if(hasCatAnswer === 'yes' || hasCatAnswer === 'y'|| hasCatAnswer === 'YES' || hasCatAnswer === 'Y') {
+function hasCatAnswerQuestion() {
+  //console.log('Does Riva have a black cat?');
+  var hasCatAnswer = prompt('Does Riva have a black cat?').toLowerCase();
+  if(hasCatAnswer === 'yes' || hasCatAnswer === 'y'|| hasCatAnswer === 'YES' || hasCatAnswer === 'Y') {
   // console.log('you are right');
   alert('Nice job! His name is Ragnar and he is the best cat in the land.');
   correctGuesses++;
@@ -63,11 +67,12 @@ if(hasCatAnswer === 'yes' || hasCatAnswer === 'y'|| hasCatAnswer === 'YES' || ha
   alert('Here\'s a hint: \'Meow\'');
 }
 console.log(hasCatAnswer);
+}
+hasCatAnswerQuestion(); 
 
 
 
-
-
+/*
 var logResult = 'You are wrong';
 var yearsInSeattleAnswer;
 yearsInSeattleAnswer = prompt('How long has Riva been in Seattle? Choose numbers 1,2,3,4, or 5.');
@@ -91,7 +96,6 @@ case '5':
 default:
   alert('Why are you not guessing any numbers?');
 }
-// console.log(logResult);
 
 
 
@@ -105,6 +109,8 @@ if(speakRussianAnswer === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnsw
   // console.log(The user has guessed wrong);
   alert('net, net, net! Wrong answer my friend.');
 }
+
+
 
 
 
