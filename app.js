@@ -30,7 +30,7 @@ alert('Welcome to my site ' + welcomeName);
 console.log('welcomeName' + welcomeName); 
 
 
-
+/*
 function twinQuestion() {
   //console.log('Is Riva a twin? Answer yes or no please.')
   var twinAnswer = prompt('Is Riva a twin? Answer yes or no please.').toLowerCase();
@@ -138,8 +138,6 @@ movieQuestion();
 
 
 
-
-
 // LAB 03 portion of work// QUESTION 6
 // Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
 // Indicate through an alert if the guess is “too high” or “too low”.
@@ -147,10 +145,13 @@ movieQuestion();
 // After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
 //PAIRED PROGAMMING LAB 04
+*/
 
 
-/*
-var count = 0;
+
+function rivaAgeQuestion() {
+  //console.log('How old is Riva?');
+  var count = 0;
 while(count < 4) {
   var rivaAge = prompt('How old is Riva? You can guess four times using numbers 30-40');
   //console.log(rivaAge);
@@ -174,6 +175,8 @@ while(count < 4) {
     alert('You tried you best, the correct answer is 33!');
   }
 }
+}
+rivaAgeQuestion(); 
 
 
 
@@ -186,7 +189,7 @@ while(count < 4) {
 
 
 
-
+/*
 var foodsList = ['green onion pancakes', 'piroshky','tapas', 'pickled beets'];
 var guessCount = 0;
 
@@ -210,4 +213,4 @@ while (guessCount < 6) {
   }
 }
 alert('Thank you for playing the game! Total score: ' + correctGuesses);
-
+*/
