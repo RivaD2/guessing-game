@@ -10,6 +10,7 @@
 //use .toUpperCase() or .toLowerCase() functions
 //Before submitting, comment out (don’t delete) your console.log()
 
+//var correctGuesses = 0;
 // var welcomeName = prompt('What is your name?').toLowerCase();
 // alert('Welcome to my site ' + welcomeName);
 // console.log('welcomeName' + welcomeName);
@@ -17,6 +18,7 @@
 // var twinAnswer = prompt('Is Riva a twin? Answer yes or no please.').toLowerCase();
 // if (twinAnswer === 'yes' || twinAnswer === 'y' || twinAnswer === 'YES' || twinAnswer === 'Y') {
 //   // console.log('correct');
+//correctGuesses++;
 //   alert('Wow, you might be seeing double!');
 // } else if (twinAnswer === 'no' || twinAnswer === 'n' || twinAnswer === 'NO' || twinAnswer === 'N'){
 //   // console.log('incorrect');
@@ -34,6 +36,7 @@
 // if(hasCatAnswer === 'yes' || hasCatAnswer === 'y'|| hasCatAnswer === 'YES' || hasCatAnswer === 'Y') {
 //   // console.log('you are right');
 //   alert('Nice job! His name is Ragnar and he is the best cat in the land.');
+//correctGuesses++;
 // } else if (hasCatAnswer === 'no' || hasCatAnswer === 'n' || hasCatAnswer === 'NO' || hasCatAnswer === 'N') {
 //   // console.log('you are wrong');
 //   alert('Good try, but wrong answer.');
@@ -62,6 +65,7 @@
 // case '5':
 //   logResult = 'You are right';
 //   alert('Yay, you guessed correctly!');
+//  correctGuesses++;
 //   break;
 // default:
 //   alert('Why are you not guessing any numbers?');
@@ -72,7 +76,8 @@
 // if(speakRussianAnswer  === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnswer === 'YES' || speakRussianAnswer === 'Y') {
 //   // console.log(user is correct);
 //   alert('da, da, da, you are correct!');
-// } else if(speakRussianAnswer  === 'yes' || speakRussianAnswer === 'y'|| speakRussianAnswer === 'YES' || speakRussianAnswer === 'Y') {
+// correctGuesses++;
+// } else if(speakRussianAnswer  === 'no' || speakRussianAnswer === 'n'|| speakRussianAnswer === 'NO' || speakRussianAnswer === 'N') {
 //   // console.log(The user has guessed wrong);
 //   alert('net, net, net! Wrong answer my friend.');
 // }
@@ -126,7 +131,27 @@
 // Display all the possible correct answers to the user.
 // Consider using a loop of some sort for this question.
 
-var foodsAnswer = ['green onion pancakes', 'piroshky', ]
 
+var foodsList = ['green onion pancakes', 'piroshky','tapas', 'pickled beets'];
+var count = 0;
+
+while (count < 6) {
+  //console.log('starting loop ' + count); This says starting loop one, two , three etc.
+  // concatenating (6-count)shows user correct amount of attempts remaining
+  // While loop makes count larger each time, but we want the prompt to count down
+  // 6 is the max and we count down from there, so 6-count is how many tries we have left
+  var foodAnswer = prompt('Can you name one of Riva\'s favorite foods? You have '+(6-count)+' attempts!');
+  for(var i = 0; i < foodsList.length; i++) {
+    if(foodsList[i] === foodAnswer) {
+      alert('You are correct, nice work!');
+      count = 7;
+    }
+  }
+  count++;
+  //if count is less than 6, then they get another guess
+  if ( count < 6){
+    alert('That sounds delicious! However, you need to guess again');
+  }
+}
 
 
