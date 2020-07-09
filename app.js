@@ -160,7 +160,7 @@ while(count < 4) {
 
 
 
-var foodsList = ['green onion pancakes', 'piroshky','tapas', 'pickled beets'];
+var foodsList = ['green onion pancakes ', 'piroshky ',' tapas ', ' pickled beets'];
 var guessCount = 0;
 
 while (guessCount < 6) {
@@ -180,6 +180,8 @@ while (guessCount < 6) {
   //if guessCount is less than 6, then they get another guess
   if ( guessCount < 6){
     alert('That sounds delicious! However, you need to guess again');
+  } else if(guessCount === 6) {
+    alert('You tried your hardest but you\'re out of turns. Her favorite foods are ' + foodsList);
   }
 }
 alert('Thank you for playing the game! Total score: ' + correctGuesses);
