@@ -1,4 +1,4 @@
-
+*
 body {
   background-image: url(https://secure.img1-fg.wfcdn.com/im/25280593/compr-r85/5896/58965419/ernst-removable-abstract-watercolor-background-658-l-x-125-w-wall-mural.jpg); 
   font-family: 'Nunito', sans-serif;
@@ -7,7 +7,10 @@ body {
   font-size: 15px;
   
 }
-
+nav {
+  display:inline;
+  font-size: 22px;
+}
 h1 {
   color: rgb(240, 195, 112);
   
@@ -15,14 +18,26 @@ h1 {
 
 p {
   font-size: 22px;
+  color: rgb(184, 93, 108);
+  font-weight:bold;
 
+}
+#fun {
+  color:black;
+  font-weight:bold;
+  padding-left: 120px;
+}
+#foods {
+  color: rgb(214, 156, 49);
 }
 #aboutme {
   font-size: 60px;
   padding-bottom: 10px;
   background-blend-mode: soft-light;
 }
-
+#experience {
+  color:rgba(207, 89, 124, 0.968);
+}
 .content {
   font-weight:bold;
   text-align:left;
@@ -36,5 +51,33 @@ p {
   float: left;
   border: solid 5px rgb(226, 183, 190);
   width: 325px;
+ 
   
+}
+.history {
+  margin: 0 auto;
+  text-align: left;
+  width: 400px;
+  font-size:15px;
+  justify-content:center;
+  font-weight:bold;
+  display: inline-block;
+  *display:inline;
+  
+  
+  
+
+}
+.ten {
+    margin: 0 auto;
+    text-align: left;
+    width: 400px;
+    font-size:15px;
+    justify-content:center;
+    font-weight:bold;
+    display:inline-block;
+    *display: inline;
+    padding-left: 200px;
+    color: rgb(143, 51, 67);
+
 }
