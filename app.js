@@ -12,15 +12,25 @@
 
 
 //PAIRED PROGRAMMING LAB 04
-
-
+/*
+1. The goal of lab is to wrap each equation inside of a function
+- Not defining any parameters/ arguements
+- Always call the function after it has been defined
+2. Clarify what encompasses a question
+3. console.log at least once in each question/function
+4. ACP after each question is wrapped around a function
+5. Make sure that the call function is OUTSIDE the last curly braces and loops
+6. Have fun!
+*/
 
 var correctGuesses = 0;
 var welcomeName = prompt('What is your name?').toLowerCase();
 alert('Welcome to my site ' + welcomeName);
-console.log('welcomeName' + welcomeName);
+console.log('welcomeName' + welcomeName); 
 
-var twinAnswer = prompt('Is Riva a twin? Answer yes or no please.').toLowerCase();
+function twinQuestion() {
+  //console.log('Is Riva a twin? Answer yes or no please.')
+  var twinAnswer = prompt('Is Riva a twin? Answer yes or no please.').toLowerCase();
 if (twinAnswer === 'yes' || twinAnswer === 'y' || twinAnswer === 'YES' || twinAnswer === 'Y') {
   // console.log('correct');
   correctGuesses++;
@@ -35,7 +45,8 @@ if (twinAnswer === 'yes' || twinAnswer === 'y' || twinAnswer === 'YES' || twinAn
   // console.log('no answer');
   alert('Move on to the next question.');
 }
-
+}
+twinQuestion(); 
 
 
 
