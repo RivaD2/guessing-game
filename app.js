@@ -30,7 +30,7 @@ alert('Welcome to my site ' + welcomeName);
 console.log('welcomeName' + welcomeName); 
 
 
-/*
+
 function twinQuestion() {
   //console.log('Is Riva a twin? Answer yes or no please.')
   var twinAnswer = prompt('Is Riva a twin? Answer yes or no please.').toLowerCase();
@@ -52,6 +52,7 @@ if (twinAnswer === 'yes' || twinAnswer === 'y' || twinAnswer === 'YES' || twinAn
 twinQuestion(); 
 
 
+
 function hasCatAnswerQuestion() {
   //console.log('Does Riva have a black cat?');
   var hasCatAnswer = prompt('Does Riva have a black cat?').toLowerCase();
@@ -69,7 +70,6 @@ function hasCatAnswerQuestion() {
 console.log(hasCatAnswer);
 }
 hasCatAnswerQuestion(); 
-
 
 
 
@@ -101,7 +101,6 @@ default:
 }
 // console.log(logResult);
 yearsInSeattleQuestion(); 
-
 
 
 
@@ -144,9 +143,6 @@ movieQuestion();
 // It should give the user exactly four opportunities to get the correct answer.
 // After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
-//PAIRED PROGAMMING LAB 04
-*/
-
 
 
 function rivaAgeQuestion() {
@@ -159,6 +155,7 @@ while(count < 4) {
   rivaAge = parseInt(rivaAge);
   if (rivaAge === 33) {
     alert ('WOW, you did it, you got it right!');
+    correctGuesses++
     break;
   }
   else if (rivaAge > 33) {
@@ -189,8 +186,9 @@ rivaAgeQuestion();
 
 
 
-/*
-var foodsList = ['green onion pancakes', 'piroshky','tapas', 'pickled beets'];
+function favoriteFoodQuestion() {
+  //console.log(foodsList);
+  var foodsList = ['green onion pancakes', 'piroshky','tapas', 'pickled beets'];
 var guessCount = 0;
 
 while (guessCount < 6) {
@@ -212,5 +210,6 @@ while (guessCount < 6) {
     alert('That sounds delicious! However, you need to guess again');
   }
 }
+}
+favoriteFoodQuestion(); 
 alert('Thank you for playing the game! Total score: ' + correctGuesses);
-*/
