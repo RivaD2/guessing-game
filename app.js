@@ -11,7 +11,7 @@
 //Before submitting, comment out (don’t delete) your console.log()
 
 
-//PAIRED PROGRAMMING LAB 04
+//PAIRED PROGRAMMING LAB 04 //Partner for exercise was Marchael Acode
 /*
 1. The goal of lab is to wrap each equation inside of a function
 - Not defining any parameters/ arguements
@@ -208,6 +208,8 @@ function favoriteFoodQuestion() {
     if ( guessCount < 6){
       alert('That sounds delicious! However, you need to guess again');
     } else if(guessCount === 6) {
+      //calling the alert function below and concatenating the arry into string reply
+      //the string with the array in the parenthesis is the arg of the alert function
       alert('You tried your hardest but you\'re out of turns. Her favorite foods are ' + foodsList);
     }
   }
