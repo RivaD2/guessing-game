@@ -1,6 +1,6 @@
 *
 body {
-  background-image: url(https://secure.img1-fg.wfcdn.com/im/25280593/compr-r85/5896/58965419/ernst-removable-abstract-watercolor-background-658-l-x-125-w-wall-mural.jpg); 
+  background-image: url(https://cssauthor.com/wp-content/uploads/2015/01/Lazeez-watercolor-textures-4K-UDH-backgrounds.jpg); 
   font-family: 'Nunito', sans-serif;
   text-align:center;
   text-align:center;
@@ -31,9 +31,11 @@ p {
   color: rgb(214, 156, 49);
 }
 #aboutme {
-  font-size: 60px;
+  font-size: 22px;
   padding-bottom: 10px;
   background-blend-mode: soft-light;
+  color: rgb(120, 169, 214);
+  font-family: cursive'
 }
 #experience {
   color:rgba(207, 89, 124, 0.968);
