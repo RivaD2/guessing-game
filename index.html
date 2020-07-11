@@ -12,18 +12,24 @@
 <body>
   <img src="https://keribetweenpages.com/wp-content/uploads/2017/02/AboutMelogo.png" alt="about me">
   <h1 id="aboutme"> Learn Some Fun Facts About Yours Truly!</h1>
-  <div class ="container">
-    <nav>
-          <a id="selected" name="me">About Me</a>  <!--ID is styled differently using "#selected"-->
-      </nav>
-  </div>
-  <hr />
+  
+  <hr class="horizontal"/>
   <h2> Learn about the creator of this site (* Cough, that's me!) while playing a fun guessing game </h2>
-  <p> Hi there, my name is Riva Davidowski and I am starting on a new journey into software development. Look, there's a lot to know about me, but I really only have time to tell you about my background and some of my goals for the future. 
+  <table>
+    <tr>
+      <td colspan="3">
+  <p class="Riva"> Hi there, my name is Riva Davidowski and I am starting on a new journey into software development. Look, there's a lot to know about me, but I really only have time to tell you about my background and some of my goals for the future. 
   </p>
+  </td>
+</tr>
+<tr>
+  <td>
 <img src="riva-image.jpg" alt="Riva" class="photo">
-  <div class="content">
-    <p id="fun"> Some fun facts about me:</p>
+</td>
+<td class="verticalline">
+<td>
+  <div class="history">
+    <p id="fun">Some fun facts about me:</p>
       <ul>
         <li>I'm a twin</li>
         <li>I'm from the East coast</li>
@@ -36,7 +42,10 @@
         <li>My favorite movie is Fifth Element</li>
       </ul>
   </div>
-
+</td>
+</tr>
+<tr>
+  <td>
   <div class="history"><p id="experience">Work Experience</p>
     <ul> 
       <li>I have a BS in Communications</li>
@@ -47,7 +56,9 @@
       <li> I have experience in front office coordination and office management</li>
     </ul>
   </div>
-
+  </td>
+  <td class="verticalline"></td>
+  <td>
   <div class ="ten"><p id="foods">My top 10 favorite foods</p>
     <ol>
       <li>Taiwanese Green Onion Pancake Wrap</li>
@@ -62,7 +73,9 @@
       <li>Russian Honey Cake</li>
     </ol>
   </div>
-   
+   </td>
+   </tr>
+   </table>
   <a href="https://github.com/RivaD2"><h3>See some of my info on GitHub</h3></a>
   
   <script src="app.js"></script>
