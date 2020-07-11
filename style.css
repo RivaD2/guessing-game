@@ -10,32 +10,38 @@ body {
   
 }
 
-}
+
 h1 {
   color: rgb(240, 195, 112);
   
 }
+
 .horizontal {
   border-color: rgb(184, 93, 108);
 }
+
 p {
   font-size: 21px;
   color: rgb(184, 93, 108);
   font-weight:bold;
 
 }
+
 .Riva {
   font-size:17px;
 }
+
 #fun {
   color:  rgb(38, 115, 187);
   font-weight:bold;
   padding-left: 50px;
   font-size: 21px;
 }
+
 #foods {
   color: rgb(38, 115, 187);
 }
+
 #aboutme {
   font-size: 22px;
   padding-bottom: 10px;
@@ -51,12 +57,9 @@ p {
 .photo {
   float: left;
   border: solid 6px rgb(226, 183, 190);
-  width: 325px;
-  
-  
- 
-  
+  width: 325px; 
 }
+
 .history {
   margin: 0 auto;
   text-align: left;
@@ -67,11 +70,8 @@ p {
   display: inline-block;
   *display:inline;
   color: black;
-  
-  
-  
-
 }
+
 .ten {
     margin: 0 auto;
     text-align: left;
@@ -82,8 +82,8 @@ p {
     display:inline-block;
     *display: inline;
     color:  black;
-
 }
+
 .verticalline {
   width: 4px;
   background-color:rgb(184, 93, 108);
